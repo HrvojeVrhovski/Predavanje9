@@ -1,0 +1,7 @@
+while True:
+    a=input("Unesi tekst: ")
+    print (a)
+    print(a.lower())
+    choice = input("Želiš li ponoviti (d/n): ")
+    if choice.lower() != "d" and choice.lower() != "da":
+        break
